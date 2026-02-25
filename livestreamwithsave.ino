@@ -12,8 +12,8 @@ const int SD_CS  = 13;  // SD Card Chip Select (Try 15 if 13 fails)
 Arducam_Mega myCAM(CAM_CS);
 WebServer server(80);
 
-const char* ssid = "Aerio4048";
-const char* password = "aerio12345678";
+const char* ssid = "yourwifissid";
+const char* password = "yourpassword";
 
 // Flag to control the stream loop
 bool isCapturing = false;
